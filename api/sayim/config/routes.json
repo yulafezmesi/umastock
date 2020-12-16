@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sayims",
+      "handler": "sayim.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sayims/count",
+      "handler": "sayim.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sayims/:id",
+      "handler": "sayim.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sayims",
+      "handler": "sayim.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sayims/:id",
+      "handler": "sayim.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sayims/:id",
+      "handler": "sayim.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

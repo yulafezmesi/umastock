@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sayims",
+  "info": {
+    "name": "Sayım"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "etiket_no": {
+      "type": "string",
+      "required": true
+    },
+    "hucre": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
